@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+
+    <script src="https://kit.fontawesome.com/ed173e2021.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <h1>Bloggsy Woggsy</h1>
+        <hr>
+        <nav id="nav">
+            <a href="#">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Articles</a>
+        </nav>
+    </header>
+
+    <main>
+        <table id="table" width="100%" border="0">
+            <thead>
+                <tr>
+                    <th width="80%">Today's Top Articles</th>
+                    <th>Subscription Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <video controls loop width="100%">
+                                <source src="videos/wakeupBunny.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h4><mark>Today In History</mark></h4>
+                        <time>April, 26, 2022</time>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, sunt possimus nulla voluptas pariatur ex voluptatibus quia ullam dolor iste voluptates reprehenderit voluptatem libero nam et labore perspiciatis reiciendis aliquam.
+                        </p>
+                        <a href="#">View Story</a>
+                    </td>
+                    <td rowspan="3" valign="top">
+                        <form action="" method="get">
+                            <div>
+                                <h5>First Name:</h5>
+                                <input type="text" name="firstName" placeholder="First Name" required="required">
+                            </div>
+                            <aside>
+                                <div>
+                                    <h5>Email:</h5>
+                                    <input type="email" name="email" id="" placeholder="you@anysite.com" required="required">
+                                </div> 
+                                <br />                           
+                                <div>
+                                    <button type="submit" width="80%">Subscribe!</button>
+                                </div>
+                            </aside>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                            <audio controls loop>
+                                <source src="audio/SampleAudio_0.7mb.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <h4><mark>News You Missed Yesterday</mark></h4>
+                        <time>April, 26, 2022</time>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, sunt possimus nulla voluptas pariatur ex voluptatibus quia ullam dolor iste voluptates reprehenderit voluptatem libero nam et labore perspiciatis reiciendis aliquam.
+                        </p>
+                        <a href="#">View Story</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="images/Amsterdam.jpg" alt="Amsterdam" width="100%">
+                        </div>
+                        <h4><mark>Around The Globe</mark></h4>
+                        <time>April, 26, 2022</time>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, sunt possimus nulla voluptas pariatur ex voluptatibus quia ullam dolor iste voluptates reprehenderit voluptatem libero nam et labore perspiciatis reiciendis aliquam.
+                        </p>
+                        <a href="#">View Story</a>
+                    </td>                    
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer id="footer">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+        &copy; Bloggsy Woggsy 2022 
+        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+    </footer>
+
+
+
+    <!--
+        body(background color)
+        header(name of blog)
+        nav (about us, contact us, read blog)
+        HAVE TO USE A TABLE TO CREATE SEPERATE SECTIONS ON THE PAGE
+        blog articles (Title, Date, Excerpt, Link to article -- add video image and music to them)
+        blog subscribe form as a side column (First Name, email, submit button, required)
+        footer (facebook, twitter, copyright)
+    -->
+    
+</body>
+</html>
